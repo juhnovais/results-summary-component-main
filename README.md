@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://juhnovais.github.io/results-summary-component-main/
 
 ## My process
 
@@ -40,6 +40,6 @@ Users should be able to:
 
 ## Author
 
-- Website - Juliana Novais (https://www.your-site.com)
+- Website - Juliana Novais (https://github.com/juhnovais)
 
 
