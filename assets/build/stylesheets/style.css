@@ -1,0 +1,167 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: hsl(221, 100%, 96%);
+  font-size: 18px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+  }
+}
+body a {
+  text-decoration: none;
+}
+body .resultSummary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 35px;
+  max-width: 635px;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  body .resultSummary {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+body .resultSummary .resultSummaryResult {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 36px;
+  text-align: center;
+  border-radius: 35px;
+  color: hsl(0, 0%, 100%);
+  gap: 20px;
+}
+@media screen and (max-width: 600px) {
+  body .resultSummary .resultSummaryResult {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+body .resultSummary .resultSummaryResult h2 {
+  color: hsl(241, 100%, 89%);
+  margin: 0;
+}
+body .resultSummary .resultSummaryResult p {
+  color: hsl(241, 100%, 89%);
+  margin: 0;
+}
+body .resultSummary .resultSummaryResult p.resultColorLight {
+  color: hsl(0, 0%, 100%);
+}
+body .resultSummary .resultSummaryResult .resultSummaryNumber {
+  background-image: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  padding: 12%;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+body .resultSummary .resultSummaryResult .resultSummaryNumber p {
+  margin: 0;
+}
+body .resultSummary .resultSummaryResult .resultSummaryNumber p.resultNumber {
+  font-size: 60px;
+  font-weight: 700;
+}
+body .resultSummary .resultSummaryResult .resultText {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+body .resultSummary .resultSummarySummary {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px 36px;
+  border-radius: 35px;
+  color: hsl(224, 30%, 27%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .resultSummary .resultSummarySummary h2 {
+  margin: 0;
+}
+body .resultSummary .resultSummarySummary .summaryDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+body .resultSummary .resultSummarySummary .summaryDetails div {
+  padding: 12px 10px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+body .resultSummary .resultSummarySummary .summaryDetails div span.percent {
+  opacity: 0.5;
+}
+body .resultSummary .resultSummarySummary .summaryDetails div p {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .resultSummary .resultSummarySummary .summaryDetails div p span.sumarySingle {
+  display: flex;
+  gap: 10px;
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.reaction .sumarySingle {
+  color: hsl(0, 100%, 67%);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.memory .sumarySingle {
+  color: hsl(39, 100%, 56%);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.verbal .sumarySingle {
+  color: hsl(166, 100%, 37%);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+body .resultSummary .resultSummarySummary .summaryDetails div.visual .sumarySingle {
+  color: hsl(234, 85%, 45%);
+}
+body .resultSummary .resultSummarySummary .submitSubmit {
+  background-color: hsl(224, 30%, 27%);
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+body .resultSummary .resultSummarySummary .submitSubmit a {
+  color: hsl(0, 0%, 100%);
+}
+body .resultSummary .resultSummarySummary .submitSubmit:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
