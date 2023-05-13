@@ -1,7 +1,4 @@
 $(document).ready(function () {
-
-
-
   $.getJSON("data.json", function (data) {
     var items = [];
     var itemClass = '';
@@ -16,12 +13,8 @@ $(document).ready(function () {
             itemClass = 'visual';
         }
         items.push( '<div class="' + itemClass + '"><p><span class="sumarySingle"><img src="' + val.icon + '"><span>' + val.category + '</span></span><span>' + val.score + ' / <span class="percent">100</span></span></p></div>');
-       
-        
         
       });
-
-      console.log(data);
      
       $( "<div/>", {"class": "summaryDetails", html: items.join( "" )
       }).appendTo( ".resultSummarySummary div:first-of-type" );
