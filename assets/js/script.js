@@ -1,4 +1,3 @@
-$(document).ready(function () {
   $.getJSON("data.json", function (data) {
     var items = [];
     var itemClass = '';
@@ -19,4 +18,3 @@ $(document).ready(function () {
       $( "<div/>", {"class": "summaryDetails", html: items.join( "" )
       }).appendTo( ".resultSummarySummary div:first-of-type" );
   });
-});
