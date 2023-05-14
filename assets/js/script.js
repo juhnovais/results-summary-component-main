@@ -11,7 +11,7 @@
         } else {
             itemClass = 'visual';
         }
-        items.push( '<div class="' + itemClass + '"><p><span class="sumarySingle"><img src="' + val.icon + '"><span>' + val.category + '</span></span><span>' + val.score + ' / <span class="percent">100</span></span></p></div>');
+        items.push( '<div class="' + itemClass + '"><p><span class="sumarySingle"><img src="' + val.icon + '" alt="' + val.category + '"><span>' + val.category + '</span></span><span>' + val.score + ' / <span class="percent">100</span></span></p></div>');
         
       });
      
